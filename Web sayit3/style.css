@@ -1,0 +1,143 @@
+* {
+    font-family: "Poppins", sans-serif !important;
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000 !important;
+    
+  }
+  
+  header {
+    background-color: rgba(247, 244, 244, 0.938);
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navbar {
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(1, 1, 48, 0.685);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    position: relative;
+  }
+  ul a,
+  ul a:hover {
+    
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    display: block;
+  
+  }
+  .inner-menu {
+      padding: 20px;
+    background-color: rgb(255, 255, 255);
+  
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+  
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+  
+  li:hover .inner-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 40px;
+    border-top: 3px solid blue;
+    box-shadow: -10px -0px 20px #666,
+           10px 10px 20px #666;
+  }
+  
+  .inner-menu a,
+  .inner-menu a:hover {
+    color: black;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .menu {
+      display: none !important;
+    }
+  }
+  .log {
+      border: 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgba(247, 244, 244, 0.418);
+  }
+  .tac {
+      font-size: 50px;
+      font-family: sans-serif;
+  }
+ 
+  .kkk{
+      border: 0;
+      background-color: blue;
+      color: white;
+      font-size: 18px;
+      border-radius: 5px ;
+  }
+  .btn {
+      background-color: rgba(0, 0, 255, 0.575);
+      width: 100%;
+      height: 50px;
+  }
+  .container {
+      background-color: white;
+      padding-bottom: 50px;
+      border-radius: 0 0 15px 15px;
+      position: relative;
+      top: -150px;
+      box-shadow: 2px -5px 12px rgba(105, 105, 105, 0.959);
+  }
+
+  .kuk{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+  .tac{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  }
+  .contact-us-form-area {
+      background-color: rgba(1, 1, 34, 0.863) ;
+       padding-bottom: 100px;
+      
+  }
+  .container1 {
+    margin-left: 70px;
+   margin-top: 50px;
+  }
+.content {
+    color: white;
+  
+}
+.content, a {
+    text-decoration: none !important;
+}
+.bbb{
+    border: 0;
+    background-color: rgba(0, 0, 255, 0.575);
+    color: white;
+    border-radius: 5px;
+}
+.footer-inner {
+  background-color: rgba(1, 1, 48, 0.685);
+  padding-top: 20px;
+  height: 500px;
+}
+.dddd {
+  margin-left: 70px;
+   margin-top: 50px;
+}
