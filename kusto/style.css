@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.box {
+    background-color: rgb(71, 68, 68);
+    width: 100%;
+    height: 80vh;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    width: 100%;
+    background: none;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+.logo {
+    font-size: 50px;
+    color: rgb(255, 191, 73);
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: rgb(187, 187, 187);
+}
+.display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    width: 60%;
+    padding-top: 50px;
+}
+.box1 h1 {
+    color: rgb(255, 255, 255);
+    font-size:55px;
+    font-weight: bold;  
+}
+.img {
+    position: relative;
+}
+.model {
+    width: 65%;
+    position: absolute;
+    left: 60%;
+    top: -20px;
+}
+.fab {
+    padding: 30px 20px 0 0;
+    color: white;
+    font-size: 20px;
+}
+.box2 {
+    width: 40%;
+}
+.title {
+    padding-left: 15%;
+}
+.title p {
+    display: inline-block;
+    color: rgb(150, 145, 145);
+}
+.title i {
+    color: rgb(150, 145, 145);
+}
+.title a i, h6 {
+    color: rgb(255, 191, 73);
+}
+.title h6 {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+.title a {
+    text-decoration: none;
+}
+.title h4 {
+    color: rgb(238, 238, 238);
+}
+
+.past {
+    background-color: rgb(36, 36, 36);
+    height: 500px;
+}
+.past1, .past2 {
+    padding-top: 50px;
+}
+.past1 i, .past1 p {
+    color: rgb(150, 145, 145);
+    display: inline-block;
+}
+.past1 h5, .past2 h4 {
+    color:rgb(238, 238, 238);
+    padding: 20px 0;
+}
+.past1 a h6 {
+    display: inline-block;
+    padding: 25px 15px 0 0;
+}
+.past1 a i, .past2 h1, .bir a {
+    color: rgb(255, 191, 73);
+}
+.past2 p {
+    color: rgb(150, 145, 145);
+}
+.past2 h1 {
+    display: inline-block;
+    padding: 0 10px 0 0;
+}
+.past2 p {
+    display: inline-block;
+    font-size: 18px;
+}
+.orta {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color:rgb(71, 68, 68)
+}
+.card {
+    width: 33%;
+    background-color:rgb(109, 108, 108) ;
+    padding: 50px;
+}
+.orta .row {
+    position: absolute;
+    top: -100px;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.orta h4 {
+    padding: 15px 0;
+    color: rgb(238, 238, 238);
+}
+.orta i {
+    color: rgb(238, 238, 238);
+    font-size: 22px;
+}
+.card1 {
+    background-color: rgb(230, 159, 29);
+}
+.chec {
+    background-color: rgb(71, 68, 68);
+}
+.div {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.div1 h5 {
+    color: white;
+}
+.div1 p, .div1 i {
+    display: inline-block;
+    color: rgb(150, 145, 145);
+    padding: 10px 15px 10px 0;
+}
+.div2 p, h4 {
+    display: inline-block;
+    color: white;
+    padding: 10px 3%;
+}
+.div2 i {
+    color: white;
+}
+.div2 p {
+    color:rgb(150, 145, 145)
+}
+.chec2 {
+    margin: 100px 0 30px 0;
+}
+.text h3, h5 {
+    color: white;
+    padding: 10px 0 0 0;
+}
+.text span {
+    color: rgb(150, 145, 145)
+}
+.text td {
+    border: 5px solid rgb(70, 70, 70);
+    padding:5px 30px;
+    width: 60px;
+    background-color: rgb(150, 145, 145)
+}
+.text .td {
+    background-color: rgb(255, 191, 73);
+}
+.footer {
+    background-color: rgb(109, 108, 108);
+    height: 120vh;
+}
+.bir h6 {
+    display: inline-block;
+    padding: 15px 20px 0 0;
+}
+.bir p {
+    color: rgb(187, 187, 187);
+    padding: 15px 0;
+}
+.foo {
+    padding: 80px 0;
+}
+.ikki h3 {
+    margin-bottom: 20px;
+}
+.ikki td {
+    padding: 15px 10px 30px 0;
+}
+.ikki td {
+    border-color: rgb(150, 145, 145);
+}
+.ikki i {
+    color: rgb(255, 191, 73);
+    margin-left: 65%;
+}
+.icon {
+    text-align: center;
+}
+.icon i {
+    color: rgb(255, 191, 73);
+    font-size: 50px;
+}
+.icon a i {
+    color: white;
+    font-size: 20px;
+}
